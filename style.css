@@ -1,23 +1,46 @@
-body {
-  background-color: #fd2e00; /* Warna Merah */
-font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-color: #0000ff; /* Warna teks utama (Biru) */
-}
-.kartu-profil {
-  width: 300px
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
-}
+   body {
+      background-color: #fd2e00;
+      font-family: Arial, sans-serif;
+      color: #0000ff;
+      margin: 0;
+      padding: 20px;
+    }
 
-.kartu-profil img{
-  width: 150px;
-  height: 150px
-  border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
-.kartu-profil {
-  /* ... (kode slide sebelumnya) ... */
-text-align: center; /* menengahkan semua teks dalam kartu */
-}
+    .kartu-profil {
+      width: 300px;
+      margin: 50px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .kartu-profil img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fd2e00;
+    }
+
+    .kartu-profil h2 {
+      color: #fd2e00;
+      margin-bottom: 10px;
+    }
+
+    .kartu-profil p {
+      color: #333333;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .kartu-profil button {
+      background-color: #0000ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
